@@ -1,8 +1,8 @@
 #include "../extra/Unity/unity.h"
 #include "../include/array_function.h"
 
-void setUp(void) {};
-void tearDown(void) {};
+void setUp(void) {}
+void tearDown(void) {}
 
 
 void test_GetMinAndMaxFromIntArray1(void) {
