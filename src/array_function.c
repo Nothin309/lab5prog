@@ -25,6 +25,18 @@ void join_and_sort_int_arrays(int* src1, size_t size_src1, int* src2, size_t siz
         k++;
     }
 
+     while (i < size_src1) {
+        dest[k] = src1[i];
+        i++;
+        k++;
+    }
+
+    while (j < size_src2) {
+        dest[k] = src2[j];
+        j++;
+        k++;
+    }
+
 }
 
 void get_min_and_max_from_int_array(int* src, size_t size, int* min, int* max) {
